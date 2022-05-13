@@ -8,12 +8,16 @@
     contentdeeplinkid: '/pages',
     clientid: 'xxxx.apps.googleusercontent.com',
     cookiepolicy: 'single_host_origin',
-    prefilltext: 'Create your Google+ Page too!',
+    prefilltext: 'This is what I have been up to recently!',
     calltoactionlabel: 'CREATE',
     calltoactionurl: 'http://plus.google.com/pages/create',
     calltoactiondeeplinkid: '/pages/create'
   
   
-  }
+  };
+  
+  // Call the render method when appropriate within your app to display the button
+  
+  gapi.interactivepost.render("sharePost", options);
 
 </script>
