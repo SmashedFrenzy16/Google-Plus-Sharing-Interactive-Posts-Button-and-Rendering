@@ -3,7 +3,7 @@ This is a button (with its rendering file) that lets you hare interactive posts 
 
 ## Prerequisites
 
-- Google APIs Consolse Project
+- Google APIs Console Project
 - Share button prerequisites
 - Call-to-action label
 
